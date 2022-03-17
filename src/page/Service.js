@@ -69,6 +69,7 @@ const Service = () => {
                                     </td>
                                 </tr>
                             </thead>
+			    <tbody>
                             <tr>
                                 <td>Type</td>
                                 <td>{service.typeData}</td>
@@ -97,7 +98,7 @@ const Service = () => {
                                 <td>Conditions d’utilisation</td>
                                 <td><a href={service.conditions} className="button whiteButton external block">{service.conditions}</a></td>
                             </tr>
-
+			</tbody>
                         </table>
                     </div>
                     <div className="serviceDescription flex-1">
